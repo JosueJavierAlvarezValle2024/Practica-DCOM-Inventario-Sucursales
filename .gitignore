@@ -1,0 +1,17 @@
+# Evidencias locales para la entrega: no se publican en Git.
+evidencias/
+
+# Archivos generados por .NET y configuración local.
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.tlb
+*.log
+.env
+.env.*
+!.env.example
+*.mdf
+*.ldf
+*.bak

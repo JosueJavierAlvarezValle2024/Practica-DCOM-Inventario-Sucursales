@@ -1,0 +1,2 @@
+using System; using System.Runtime.InteropServices;
+namespace Inventory.Contracts { [ComVisible(true)] [Guid("AC3219F2-4E1C-49B2-AD17-2D124F995A35")] [ClassInterface(ClassInterfaceType.AutoDual)] public class AuditRecord { public DateTime Date { get; set; } public string User { get; set; } public string Branch { get; set; } public string Action { get; set; } public string Entity { get; set; } public string Detail { get; set; } } }

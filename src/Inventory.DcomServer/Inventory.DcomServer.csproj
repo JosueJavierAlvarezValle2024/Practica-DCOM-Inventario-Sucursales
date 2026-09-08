@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <ComVisible>false</ComVisible>
+    <AssemblyName>Inventory.DcomServer</AssemblyName>
+    <RootNamespace>Inventory.DcomServer</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Inventory.Contracts\Inventory.Contracts.csproj" />
+  </ItemGroup>
+</Project>

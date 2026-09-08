@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.Contracts", "src\Inventory.Contracts\Inventory.Contracts.csproj", "{1B5645AA-EC1A-4BFA-905C-C001D6FB2B32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.DcomServer", "src\Inventory.DcomServer\Inventory.DcomServer.csproj", "{C6D5E759-2DFA-4BEC-9BE1-BA53B66F62CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.Client", "src\Inventory.Client\Inventory.Client.csproj", "{FB781E91-C5F5-4CE5-BD25-93D09B6EF298}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B5645AA-EC1A-4BFA-905C-C001D6FB2B32}.Debug|x64.ActiveCfg = Debug|x64
+		{1B5645AA-EC1A-4BFA-905C-C001D6FB2B32}.Debug|x64.Build.0 = Debug|x64
+		{1B5645AA-EC1A-4BFA-905C-C001D6FB2B32}.Release|x64.ActiveCfg = Release|x64
+		{1B5645AA-EC1A-4BFA-905C-C001D6FB2B32}.Release|x64.Build.0 = Release|x64
+		{C6D5E759-2DFA-4BEC-9BE1-BA53B66F62CC}.Debug|x64.ActiveCfg = Debug|x64
+		{C6D5E759-2DFA-4BEC-9BE1-BA53B66F62CC}.Debug|x64.Build.0 = Debug|x64
+		{C6D5E759-2DFA-4BEC-9BE1-BA53B66F62CC}.Release|x64.ActiveCfg = Release|x64
+		{C6D5E759-2DFA-4BEC-9BE1-BA53B66F62CC}.Release|x64.Build.0 = Release|x64
+		{FB781E91-C5F5-4CE5-BD25-93D09B6EF298}.Debug|x64.ActiveCfg = Debug|x64
+		{FB781E91-C5F5-4CE5-BD25-93D09B6EF298}.Debug|x64.Build.0 = Debug|x64
+		{FB781E91-C5F5-4CE5-BD25-93D09B6EF298}.Release|x64.ActiveCfg = Release|x64
+		{FB781E91-C5F5-4CE5-BD25-93D09B6EF298}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+EndGlobal
